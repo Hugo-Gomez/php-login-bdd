@@ -7,9 +7,9 @@
   <body>
     <fieldset>
       <legend>Connexion :</legend>
-      <form action="/action_page.php" method="post">
+      <form action="/connexion.php" method="post">
         Username : <input type="text" name="username"><br>
-        Password : <input type="text" name="password"><br>
+        Password : <input type="password" name="password"><br>
       <input type="submit" value="Submit">
     </fieldset>
 </form>

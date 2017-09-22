@@ -8,6 +8,6 @@ CREATE TABLE IF NOT EXISTS users (
 )
 ENGINE=INNODB;
 
-INSERT INTO sqli.users (user_id, username, password) VALUES ('0','Solene', 'solene123');
-INSERT INTO sqli.users (user_id, username, password) VALUES ('1','Hugo', 'hugo123');
-INSERT INTO sqli.users (user_id, username, password) VALUES ('2','Colin', 'colin123');
+INSERT INTO sqli.users (user_id, username, password) VALUES ('0',"Solene", "solene123");
+INSERT INTO sqli.users (user_id, username, password) VALUES ('1',"Hugo", "hugo123");
+INSERT INTO sqli.users (user_id, username, password) VALUES ('2',"Colin", "colin123");
