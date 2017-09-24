@@ -3,7 +3,7 @@ httpd:
   links:
    - maria_db:db
   ports:
-   - 80:80
+   - 8080:80
   volumes:
    - $PWD:/var/www/html
   environment:
@@ -29,3 +29,7 @@ phpmyadmin:
   environment:
     PMA_USER: root
     PMA_PASSWORD: toto
+elasticsearch:
+  image: elasticsearch
+  ports:
+    - 32771:9200
